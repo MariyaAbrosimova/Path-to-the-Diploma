@@ -1,4 +1,11 @@
-import { PLAYER_SPEED, PLAYER_MAX_HP, PLAYER_ATTACK_DAMAGE, PLAYER_ATTACK_COOLDOWN, PLAYER_DASH_COOLDOWN, PLAYER_DASH_SPEED, PLAYER_DASH_DURATION, CONTROLS } from '../utils/constants.js';
+import { PLAYER_SPEED,
+    PLAYER_MAX_HP,
+    PLAYER_ATTACK_DAMAGE,
+    PLAYER_ATTACK_COOLDOWN,
+    PLAYER_DASH_COOLDOWN,
+    PLAYER_DASH_SPEED,
+    PLAYER_DASH_DURATION,
+    CONTROLS } from './utils/constants.js';
 
 export class Player extends Phaser.Physics.Arcade.Sprite {
     constructor(scene, x, y) {
